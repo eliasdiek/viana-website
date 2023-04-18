@@ -29,7 +29,7 @@ export default function Layout({ children, home }) {
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
             </h2>
-            <div className="text-sm py-6 px-2"><span className="font-semibold">Email</span>: <a href="mailto:viana.mabel3058@gmail.com">viana.mabel3058@gmail.com</a>, <span className="font-semibold">Phone</span>: <a href="tel:+573058321929">+57 3058321929</a></div>
+            <div className={styles.contactInfo}><span>Email</span>: <a href="mailto:viana.mabel3058@gmail.com">viana.mabel3058@gmail.com</a>, <span>Phone</span>: <a href="tel:+573058321929">+57 3058321929</a></div>
           </div>
       </header>
       <main>{children}</main>
