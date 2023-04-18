@@ -12,15 +12,13 @@ class MyDocument extends Document {
 		return (
 			<Html>
 				<Head>
-					<link rel="shortcut icon" href="/favicon.png" type="image/png" />
+					<link rel="shortcut icon" href="/vercel.svg" type="image/svg" />
 
 					<meta name="title" content="Mabel de Jesus Viana Arias | Full Stack Developer" />
 					<meta name="description" content="Technically sophisticated, competent, and innovative Software Engineer, with experience in web & hybrid mobile programming, business analysis, IT management, business intelligence, and integration of enterprise applications." />
 
 					<meta property="og:title" content="Mabel de Jesus Viana Arias | Full Stack Developer" key="title" />
 					<meta property="og:site_name" content="Mabel de Jesus Viana Arias | Full Stack Developer" />
-					<meta property="og:url" content="https://www.heyadev.com" />
-					<meta property="og:image" content="/images/profile.png" />
 					<meta property="og:type" content="website" />
 					<meta property="og:description" content="Technically sophisticated, competent, and innovative Software Engineer, with experience in web & hybrid mobile programming, business analysis, IT management, business intelligence, and integration of enterprise applications." />
 

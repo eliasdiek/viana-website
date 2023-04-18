@@ -11,12 +11,25 @@ export default function Layout({ children, home }) {
     <div className={styles.container}>
       <header className={styles.header}>
           <div className="top-container-alt relative flex-col items-center justify-center">
+            {
+              home ? (
+                <h2 className={utilStyles.headingLg}>
+                  {name}
+                </h2>
+              ) : (
+                <h2 className={utilStyles.headingLg}>
+                  <Link href="/">
+                    <a className={utilStyles.colorInherit}>{name}</a>
+                  </Link>
+                </h2>
+              )
+            }
             <h2 className={utilStyles.headingLg}>
               <Link href="/">
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
             </h2>
-            <div className="text-sm py-6 px-2">Email: <a href="mailto:viana.mabel3058@gmail.com">viana.mabel3058@gmail.com</a>, Phone: <a href="tel:+573058321929">+57 3058321929</a></div>
+            <div className="text-sm py-6 px-2"><span className="font-semibold">Email</span>: <a href="mailto:viana.mabel3058@gmail.com">viana.mabel3058@gmail.com</a>, <span className="font-semibold">Phone</span>: <a href="tel:+573058321929">+57 3058321929</a></div>
           </div>
       </header>
       <main>{children}</main>
