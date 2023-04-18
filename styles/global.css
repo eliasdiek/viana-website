@@ -1,0 +1,96 @@
+@font-face {
+  font-family: charter400;
+  src: url(https://glyph.medium.com/font/be78681/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/charter-400-normal.woff);
+}
+@font-face {
+  font-family: charter700;
+  src: url(https://glyph.medium.com/font/f50d520/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/charter-700-normal.woff);
+}
+@font-face {
+  font-family: sohne;
+  src: url(https://glyph.medium.com/font/df9ba7f/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-500-normal.woff);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  line-height: 1.6;
+  font-family: charter400, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+  Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 20px;
+  color: rgba(41, 41, 41, 1);
+}
+
+h1, h2, h3, h4 {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h2 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: rgba(41, 41, 41, 1);
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.relative {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.profile-image-container img, .profile-image-container span {
+  display: block !important;
+}
+.profile-image-container {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  border-radius: 9999px;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+  border: 2px solid #fff;
+}
+.top-container {
+  padding-top: 75px;
+}
+.top-container-alt {
+  padding-top: 55px;
+}
+.portfolio-content a {
+  word-break: break-word;
+  display: block;
+}
+.portfolio-content a, .portfolio-content p {
+  margin-bottom: 10px;
+}
+.portfolio-content img {
+  cursor: zoom-in;
+}
