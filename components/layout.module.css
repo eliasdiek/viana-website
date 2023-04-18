@@ -29,5 +29,8 @@
     color: #666;
 }
 .contactInfo span {
-    font-weight: 500;
+    font-weight: 600;
+}
+.contactInfo a {
+    color: #666;
 }

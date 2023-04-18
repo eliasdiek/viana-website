@@ -24,11 +24,7 @@ export default function Layout({ children, home }) {
                 </h2>
               )
             }
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
+
             <div className={styles.contactInfo}><span>Email</span>: <a href="mailto:viana.mabel3058@gmail.com">viana.mabel3058@gmail.com</a>, <span>Phone</span>: <a href="tel:+573058321929">+57 3058321929</a></div>
           </div>
       </header>
